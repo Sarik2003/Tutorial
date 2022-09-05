@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<!-- saved from url=(0027)https://www.mycamu.co.in/#/ -->
+<html lang="en" ng-app="camuPortal" class="js cssanimations csstransitions ng-scope"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./My Camu_files/cb=gapi.loaded_0" async=""></script><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}.ng-animate-block-transitions{transition:0s all!important;-webkit-transition:0s all!important;}.ng-hide-add-active,.ng-hide-remove{display:block!important;}</style>
+  <title>My Camu</title>
+
+  <!-- Meta -->
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+ <!-- vendor combiner css -->
+ <link rel="stylesheet" href="./My Camu_files/vendornew.min.css">
+
+ <!-- MyCamu custom  CSS -->
+ <link rel="stylesheet" href="./My Camu_files/custom.css">
+ 
+</head>
+<body ng-class="getBodyClass()" ng-controller="indexctrl" data-ng-init="initTemp()" id="main_page" name="main_page" style="" class="ng-scope" data-new-gr-c-s-check-loaded="14.1078.0" data-gr-ext-installed="">
+
+
+  <!--=== Style Switcher ===-->
+
+  <!--<i class="style-switcher-btn fa fa-cogs hidden-xs"></i>-->
+  <!--<div class="style-switcher animated fadeInRight">-->
+  <!--<div class="theme-close"><i class="icon-close"></i></div>-->
+  <!--<div class="theme-heading">Theme Colors</div>-->
+  <!--<ul class="list-unstyled">-->
+  <!--<li class="theme-default theme-active" data-style="default" data-header="light"></li>-->
+  <!--<li class="theme-blue" data-style="blue" data-header="light"></li>-->
+  <!--<li class="theme-orange" data-style="orange" data-header="light"></li>-->
+  <!--<li class="theme-red" data-style="red" data-header="light"></li>-->
+  <!--<li class="theme-light last" data-style="light" data-header="light"></li>-->
+
+  <!--<li class="theme-purple" data-style="purple" data-header="light"></li>-->
+  <!--<li class="theme-aqua" data-style="aqua" data-header="light"></li>-->
+  <!--<li class="theme-brown" data-style="brown" data-header="light"></li>-->
+  <!--<li class="theme-dark-blue" data-style="dark-blue" data-header="light"></li>-->
+  <!--<li class="theme-light-green last" data-style="light-green" data-header="light"></li>-->
+  <!--</ul>-->
+  <!--<div style="margin-bottom:18px;"></div>-->
+  <!--<div class="theme-heading">Layouts</div>-->
+  <!--<div class="text-center">-->
+  <!--<a href="javascript:void(0);" class="btn-u btn-u-green btn-block active-switcher-btn wide-layout-btn">Wide</a>-->
+  <!--<a href="#" class="btn-u btn-u-green btn-block boxed-layout-btn">Boxed</a>-->
+  <!--</div>-->
+  <!--</div>&lt;!&ndash;/style-switcher&ndash;&gt;-->
+  <!--&lt;!&ndash;=== End Style Switcher ===&ndash;&gt;  -->
+
+  <div class="wrapper">
+   <div class="header">      
+    <!-- uiView: menu --><div ui-view="menu" class="ng-scope">
+<!-- Topbar -->
+<div class="topbar ng-scope">
+    <div class="container">
+        <!-- Topbar Navigation -->
+        <ul class="loginbar pull-right">
+            <li>
+                <i class="fa fa-globe"></i>
+                <a>Languages</a>
+                <ul class="lenguages">
+                    <li class="active">
+                        <a href="https://www.mycamu.co.in/#">English <i class="fa fa-check"></i></a> 
+                    </li>
+                    <li><a href="https://www.mycamu.co.in/#">Spanish</a></li>
+                    <li><a href="https://www.mycamu.co.in/#">Russian</a></li>
+                    <li><a href="https://www.mycamu.co.in/#">German</a></li>
+                </ul>
+            </li>
+            <li class="topbar-devider"></li>   
+            <li><a href="https://www.mycamu.co.in/">Help</a></li>
+              
+        </ul>
+        <!-- End Topbar Navigation -->
+    </div>
+</div>
+<!-- End Topbar -->
+  <!-- Navbar -->
+        <div class="navbar navbar-default no_header ng-scope" role="navigation" ng-controller="public_mainmenuctrl">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse" >
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="fa fa-bars"></span>
+                    </button> -->
+                    <a class="navbar-brand col-xs-4 no_padding" href="javascript:void(0);">
+                         <img id="logo-header" class="logo_left" src="./My Camu_files/mycamu-logo-2.png" alt="Logo">
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-responsive-collapse">
+                    <ul class="nav navbar-nav">
+
+                        <!-- Home -->
+                        
+                        <!-- <li ng-if="Currenturl != '/redirect'">
+                            <a href="#/news"> Home </a>                          
+                        </li> -->
+                        <!-- End Home -->
+                        <!-- Features -->                        
+                        <!--<li >-->
+                            <!--<a href="/">-->
+                                <!--Features-->
+                            <!--</a>                            -->
+                        <!--</li>-->
+                        <!-- End Features --> 
+
+                        <!-- Contacts -->
+                        <!--<li>-->
+                            <!--<a href="#"> Contacts </a>-->
+                        <!--</li>          -->
+                        <!-- End Contacts -->
+                         <!-- <li ng-if="Currenturl != '/redirect'"><a  href="#/login">Login</a></li> 
+                          <li ng-if="Currenturl != '/redirect'"><a  href="#/signup">Signup</a></li>  -->
+
+                        <!-- Search Block -->
+                        <!--<li>-->
+                            <!--<i class="search fa fa-search search-btn"></i>-->
+                            <!--<div class="search-open">-->
+                                <!--<div class="input-group animated fadeInDown">-->
+                                    <!--<input type="text" class="form-control" placeholder="Search">-->
+                                    <!--<span class="input-group-btn">-->
+                                        <!--<button class="btn-u" type="button">Go</button>-->
+                                    <!--</span>-->
+                                <!--</div>-->
+                            <!--</div>    -->
+                        <!--</li>-->
+                        <!-- End Search Block -->
+                    </ul>
+                </div><!--/navbar-collapse-->
+            </div>    
+        </div>            
+        <!-- End Navbar -->
+        
+       <script src="./My Camu_files/public_mainmenuctrl.js.download" class="ng-scope"></script></div>
+  </div>
+  <!-- <div ui-view></div> -->
+  <!-- uiView: content --><div ui-view="content" class="ng-scope"><div class="ng-scope">
+    <!-- uiView: status --><div ui-view="status" class="ng-scope"><style class="ng-scope">
+
+.no_header{
+    display: none !important;
+}
+
+.loader{
+height:3px;
+position: fixed;
+top: 0px;
+}
+
+.navbar-brand > img{
+    transform: scale(0.8) !important;
+    -webkit-transform: scale(0.8) !important;
+    -moz-transform: scale(0.8) !important;
+}
+ 
+    /* To show mouse pointer while the cursor move on div elements  */
+    .hoverImg:hover {opacity: 0.4;cursor: pointer;}   
+
+    /* To show hyperlink while the cursor is on particular element */                                                     
+    .hyperlink:hover{text-decoration: underline; color:red !important;cursor: pointer;}
+    
+
+    .inImg{
+        width: 42px;
+        border-radius: 50%;
+        margin-top:13%;
+        margin-left: 75%;
+    }
+    .fntStIn{
+        color: rgb(169 169 169); 
+        margin-top: 5%;
+        margin-left:71%; 
+        font-family:Arial;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .inUrl{
+        margin-left: 62%!important;
+        font-size: 14px!important;
+    }
+    .worImg{
+       width: 42px!important; 
+       margin-left:38%!important;
+       margin-top:17.5%!important;
+       border-radius: 50%!important;
+    }
+    .fntStWr{
+        margin-left: 46%!important;
+        color: rgb(0 0 128)!important;
+        margin-top: 7%!important;
+        font-family: Arial!important;
+        font-size: 12px!important;
+    }
+    .worUrl{
+        margin-left: 27%!important;
+        font-family:Arial!important;
+        font-size: 16px!important;
+        color:rgb(0 0 128)!important; 
+        margin-top: 3.5%!important;
+        font-weight: bold!important;
+    }
+    .proceedFntSt{
+         margin-left: 56%;
+         color: red; 
+         font-weight: bold;
+         font-family: Arial;
+         font-size: 12px;
+         text-decoration: underline;
+         margin-top: 23px;
+    }
+    .closeModal{
+        width: 2.5%;
+        color: grey;
+        margin-left: 97%;
+    }
+    
+    .loginDomainBg{
+        height: 500px; background-color: white;
+        margin-top: 4%;
+        margin-left: 26%;
+        margin-right: 23%;
+        background-image: url('assets/img/redirectinternationalimage.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    
+    @media(min-width: 320px) and (max-width: 480px){
+        .loginDomainBg{
+            background-repeat: no-repeat!important;
+            background-size: 127% 44% !important;
+            background-position: 0 185px!important;
+            height: 330px!important;
+            width: 65%!important;
+            margin-top: 15%!important;
+            margin-left: 17%!important;
+       }
+        .inImg{
+            width: 30px!important;
+            margin-top: 13%!important;
+            margin-left: 78%!important;
+       }
+       .fntStIn{
+            margin-left: 65%!important;
+            font-size: 12px!important;
+            margin-top: 5%!important;
+            width: 51%!important;
+       }
+       .inUrl{
+            margin-left: 52%!important;
+            font-size: 14px!important;
+            width: 51%!important;
+       }
+        .worImg{
+            width: 30px!important;
+            margin-top : 123.5%!important;
+            margin-left: -31%!important;
+       }
+       .fntStWr{
+            font-size: 12px!important;
+            margin-left: -26%!important;
+       }
+      .worUrl{
+            margin-left: -63%!important;
+            font-size: 14px!important;
+       }
+       .closeModal{
+            width: 4.6%!important;
+       }
+        .proceedFntSt{
+            margin-left: 30%!important;
+       }
+    }
+    @media(min-width: 480px) and (max-width: 766px){
+        .loginDomainBg{
+            background-repeat: no-repeat;
+            background-size: 127% 46% !important;
+            background-position: 0 178px!important;
+            height: 330px!important;
+            width: 55%!important;
+            margin-top: 15%!important;
+            margin-left: 22%!important;
+        }
+        .inImg{
+            width: 35px!important;
+            margin-top: 13%!important;
+            margin-left: 76%!important;
+       }
+       .fntStIn{
+            margin-left: 65%!important;
+            font-size: 14px!important;
+            margin-top: 5%!important;
+            width: 50%!important;
+       }
+       .inUrl{
+            margin-left: 52%!important;
+            font-size: 16px!important;
+            width: 51%!important;
+       }
+        .worImg{
+            width: 35px!important;
+            margin-top : 113.5%!important;
+            margin-left: -33%!important;
+       }
+       .fntStWr{
+            font-size: 14px!important;
+            margin-left: -29%!important;
+            margin-top: 5%!important;
+       }
+      .worUrl{
+            margin-left: -63%!important;
+            font-size: 16px!important;
+       }
+       .proceedFntSt{
+            margin-left: 33%!important;
+       }
+
+    }
+
+    @media(min-width: 767px) and (max-width: 767px){
+        .loginDomainBg{
+            height: 275px!important;
+            background-size: 137% 100% !important;
+        }
+       .inImg{
+            width: 38px!important;
+            margin-top: 13%!important;
+        }
+       .fntStIn{
+            margin-left: 71%!important;
+            font-size: 12px!important;
+            margin-top: 3%!important;
+        }
+       .inUrl{
+            margin-left: 62%!important;
+            font-size: 14px!important;
+        }
+       .worImg{
+            width: 38px!important;
+            margin-top: 18.5%!important;
+       }
+       .fntStWr{
+            font-size: 12px!important;
+            margin-top: 5%!important;
+       }
+      .worUrl{
+            margin-left: 27%!important;
+            font-size: 14px!important;
+       }
+    }
+    @media(min-width: 768px) and (max-width: 991px){
+        .loginDomainBg{
+            height: 280px!important;
+            background-size: 137% 100% !important;
+        }
+
+    }
+
+    @media(min-width: 992px) and (max-width: 1199px){
+       .loginDomainBg{
+            height: 330px!important;
+            background-size: 137% 100% !important;
+        }
+       .inUrl{
+            margin-left: 65%!important;
+       }
+       .fntStWr{
+            margin-left: 44%!important;
+        }
+       .worUrl{
+            margin-left: 26%!important;
+       }
+       .proceedFntSt{
+            margin-left: 54%!important;
+       }
+   }
+
+   @media(min-width: 1200px) and (max-width: 1200px){
+        .loginDomainBg{
+            height: 370px!important;
+            background-size: 126% 100% !important;
+        }
+        .inImg{
+            width: 55px!important;
+            margin-top: 12%!important;
+        }
+        .fntStIn{
+            margin-left: 73%!important;
+            font-size: 14px!important;
+            margin-top: 3%!important;
+        }
+        .inUrl{
+            margin-left: 66%!important;
+            font-size: 18px!important;
+        }
+        .worImg{
+            width: 55px!important;
+            margin-top: 18%!important;
+        }
+        .fntStWr{
+            margin-left: 45%!important;
+            margin-top: 4%!important;
+            font-size: 14px!important;
+        }
+        .worUrl{
+            margin-left: 30%!important;
+            margin-top: 3%!important;
+            font-size: 18px!important;
+            font-family: Arial!important;
+            color: rgb(0 0 128)!important;
+        }
+        .proceedFntSt{
+            font-size: 14px!important;
+            margin-left: 56%!important;
+        }
+        .closeModal{
+            width: 2.5%;
+            color: grey;
+            margin-left: 97%;
+        }
+    }
+   @media(min-width: 1024px) and (max-width:1024px){
+        .loginDomainBg{
+            height: 370px!important;
+            background-size: 137% 100% !important;
+        }
+        .inImg{
+            width: 50px!important;
+            margin-top: 14%!important;
+            margin-left: 77%!important;
+        }
+        .fntStIn{
+            margin-left: 73%!important;
+            font-size: 14px!important;
+            margin-top: 3%!important;
+        }
+        .inUrl{
+            margin-left: 66%!important;
+            font-size: 18px!important;
+        }
+        .worImg{
+            width: 50px!important;
+            margin-top: 20.5%!important;
+        }
+        .fntStWr{
+            margin-top: 6%!important;
+            font-size: 14px!important;
+        }
+        .worUrl{
+            font-size: 18px!important;
+            margin-top: 3%!important;
+            margin-left: 27%!important;
+            font-family: Arial!important;
+            color: rgb(0 0 128)!important;
+        }
+        .closeModal{
+            width: 2.5%;
+            color: grey;
+            margin-left: 97%;
+        }
+   }
+   @media(min-width: 1080px) and (max-width: 1080px){
+        .loginDomainBg{
+            height: 370px!important;
+            background-size: 137% 100% !important;
+        }
+        .inImg{
+            width: 50px!important;
+            margin-top: 16%!important;
+            margin-left: 77%!important;
+        }
+        .fntStIn{
+            margin-left: 73%!important;
+            font-size: 16px!important;
+            margin-top: 3%!important;
+        }
+        .inUrl{
+            margin-left: 67%!important;
+            font-size: 18px!important;
+        }
+        .worImg{
+            width: 50px!important;
+            margin-top: 22.5%!important;
+        }
+        .fntStWr{
+            margin-top: 4.5%!important;
+            margin-left: 44%!important;
+            font-size: 16px!important;
+        }
+        .worUrl{
+            font-size: 18px!important;
+            margin-top: 3%!important;
+            margin-left: 30%!important;
+            font-family: Arial!important;
+            color: rgb(0 0 128)!important;
+        }
+        .proceedFntSt{
+            font-size: 14px!important;
+            margin-left: 58%!important;
+        }
+   }
+   @media(min-width: 1366px) and (max-width: 1366px){
+        .loginDomainBg{
+                height: 460px!important;
+               background-size: 137% 100% !important;
+        }
+        .inImg{
+            width: 60px!important;
+            margin-top: 15%!important;
+            margin-left: 77%!important;
+        }
+        .fntStIn{
+            margin-left: 73%!important;
+            font-size: 18px!important;
+            margin-top: 3%!important;
+        }
+        .inUrl{
+            margin-left: 68%!important;
+            font-size: 20px!important;
+        }
+        .worImg{
+            width: 60px!important;
+            margin-top: 21.5%!important;
+        }
+        .fntStWr{
+            margin-top: 4.5%!important;
+            margin-left: 44%!important;
+            font-size: 18px!important;
+        }
+        .worUrl{
+            margin-top: 2%!important;
+            margin-left: 29%!important;
+            font-size: 20px!important;
+           font-family: Arial!important;
+           color: rgb(0 0 128)!important;
+        }
+        .proceedFntSt{
+            font-size: 16px!important;
+            margin-left: 57%!important;
+        }
+        .closeModal{
+            width: 2.5%;
+            color: grey;
+            margin-left: 97%;
+        }
+   }
+   @media(min-width: 1800px){
+        .loginDomainBg{
+            height: 486px!important;
+            background-size: 111% 100% !important;
+        }
+        .inImg{
+            width: 65px!important;
+            margin-top: 11%!important;
+            margin-left: 69%!important;
+        }
+        .fntStIn{
+            margin-left: 66%!important;
+            font-size: 20px!important;
+            margin-top: 3%!important;
+        }
+        .inUrl{
+            margin-left: 62%!important;
+            font-size: 22px!important;
+            margin-top: 1.5%!important;
+        }
+        .worImg{
+            width: 65px!important;
+            margin-top: 15.5%!important;
+            margin-left: 35%!important;
+        }
+        .fntStWr{
+            margin-top: 4.5%!important;
+            margin-left: 39%!important;
+            font-size: 20px!important;
+        }
+        .worUrl{
+            margin-top: 1.5%!important;
+            margin-left: 27%!important;
+            font-size: 22px!important;
+        }
+        .proceedFntSt{
+            font-size: 18px!important;
+            margin-left: 53%!important;
+        }
+        .closeModal{
+            width: 2.5%;
+            color: grey;
+            margin-left: 97%;
+        }
+    }
+    /*External login google*/
+    .text-inside-line{
+        width: 100%; 
+       text-align: center; 
+       border-bottom: 1px solid #a39c9c; 
+       line-height: 0.1em;
+       margin: 10px 0 20px; 
+    }
+    .text-inside-line span{
+        background: #eaeaea; 
+        padding:0 10px; 
+    }
+    .Signin-external{
+        height: 34px;
+        background-color: #FFFFFF !important;
+        border: 1px solid #a49c9c;
+        margin-bottom: 4%;
+        border-radius: 5px;
+        text-align: center;
+        color: #202222 !important;
+        padding: 1px 6px 1px 6px;
+        cursor: pointer;
+    }
+    .Signin-external:hover,.Signin-external:active,.Signin-external:focus {
+        text-decoration: none;
+        background-color: #0067b8 !important;
+        color: #FAFAFA !important;
+        display: block;
+    }   
+    /* Add this to align vertically */
+    .Signin-external > img{
+        height: 18px;
+        width: auto;
+        margin-right: 5px;
+        vertical-align: middle;
+    }
+    .Signin-external > span {
+      vertical-align: middle;
+    }
+    .chgHgt {
+        margin-top: 33px!important;
+    }
+    .chgTop {
+        margin-top: 53px!important;
+    }
+    .trmBot {
+        padding-bottom: 0px!important;
+    }
+    .pwdTop {
+        margin-top: 15px;
+    }
+    .lgnCls {
+        margin-top: 10px!important;
+        color: #D32F2F !important;
+        font-size: 1.15rem !important;
+    }
+    .exAutCls {
+        color: #D32F2F !important;
+        font-size: 1.15rem !important;
+    }
+    .marTp18 {
+        margin-top: 18px;
+    }
+    .password_show_hide_icon{
+        z-index: 2;
+        position: absolute;
+        top: 5px;
+        right: 6px;
+        line-height: 30px;
+        display: inline-block;
+        color: #5c5454;
+        font-size: medium !important;
+    }
+    .curser_pointer {cursor: pointer;}
+    .footer-content_view{
+        margin-top: 14%;
+    }
+</style>
+
+<!--=== Content Part ===-->
+<div class="container content ng-scope" ng-app="myApp" ng-controller="public_loginctrl" my-cm-wave="">
+    <div class="row">
+        <!-- <div class="col-sm-9 col-md-offset-2 cstm-sm-offset alert fade in animated bounce resp_error pad_tp_10 pad_btm_0" ng-show="error.message" ng-hide="true" style="margin-bottom:0 !important;">
+            <div class="error_content col-sm-12 col-md-11 pad_5" ng-if="error.message">
+                <div class="col-sm-12"><strong>Oops!</strong> {{error.message}} </div>
+            </div>
+        </div> -->
+        <div class="col-sm-11 col-md-10 col-md-offset-2 cstm-sm-offset pad_tp_10">
+            <div class="col-xs-6 col-sm-5 min_max_height bg_cover no_padding resp_hide">
+                <div class="dwnld_links2 col-xs-12">
+                    <h5 class="center color_white col-xs-12">MYCAMU - PARENT AND STUDENT PORTAL</h5>
+                </div>
+                <div class="dwnld_links col-xs-12">
+                    <h5 class="center color_white">AVAILABLE ON</h5>
+                    <a href="https://appsto.re/in/Sves_.i" class="fa fa-apple color_white col-xs-6 right no_margin align_left"></a>
+                    <a href="https://play.google.com/store/apps/details?id=com.octoze.camu.mycamuapp" class="fa fa-android color_white col-xs-6 left no_margin align_right"></a>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-5 pad_tp_btm_10 bg_color_lt_grey min_max_height resp_show">
+                <div class="col-xs-12 no_padding">
+                    <div class="navbar-header row show_logo">
+                        <a class="navbar-brand col-xs-4 no_padding" href="javascript:void(0);">
+                            <img id="logo-header" class="logo_left margin_tp_10" src="./My Camu_files/mycamu-logo-2.png" alt="Logo">
+                        </a>
+                        <span class="navbar-brand col-xs-8 right pad_tp_10" href="/">
+                            <a href="https://appsto.re/in/Sves_.i" class="fa fa-apple color_white no_margin"></a>
+                            <a href="https://play.google.com/store/apps/details?id=com.octoze.camu.mycamuapp" class="fa fa-android color_white no_margin"></a>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <ul class="nav nav-tabs no_border col-xs-12 no_padding" id="tabs">
+                       <li class="active" id="loglink"><a href="javascript:void(0)" ng-click="toggle(&#39;#login_tab&#39;)" data-toggle="tab" style="font-size: 1.70rem !important;">LOGIN</a></li>
+                       <li id="signuplink"><a href="javascript:void(0)" ng-click="toggle(&#39;#signup_tab&#39;)" data-toggle="tab" style="font-size: 1.70rem !important;">SIGNUP</a></li>
+                        <!-- <li id="signinlink"><a href="javascript:void(0)" ng-click="toggle('#email_tab')"
+                        data-toggle="tab" style="font-size: 1.70rem !important;">APPLICANT</a></li> -->
+                    </ul>
+
+                    <div class="tab-content col-xs-12 no_padding">
+
+                        <div class="tab-pane active" id="login_tab">
+                            <div class="col-xs-12 no_padding">
+                                <form class="reg-page ng-pristine ng-invalid ng-invalid-required" name="loginForm">
+                                    <div class="col-xs-12 ht no_padding">
+                                        <div class="col-xs-12 abs no_padding">
+                                            <input class="form-input ng-dirty ng-pristine ng-invalid ng-invalid-required" placeholder="Registered email id" type="text" id="username" name="username" ng-model="login.email" required="required" ng-required="true" style="unicode-bidi: plaintext !important;">
+                                            <label class="form-label" for="username">User name</label>
+                                            <span class="error ng-hide" ng-show="loginForm.username.$dirty &amp;&amp; loginForm.username.$error.required">Email is required!</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 ht no_padding">
+                                        <div class="col-xs-12 abs no_padding">
+                                            <input class="form-input ng-dirty ng-pristine ng-invalid ng-invalid-required" placeholder="Password" type="password" autocomplete="off" id="password" required="required" ng-model="login.pwd" name="password" ng-required="true" ng-change="resetPwd()" style="unicode-bidi: plaintext !important;">
+                                            <label class="form-label" for="password">Password</label>
+                                            <i class="toggle-password password_show_hide_icon fa fa-fw fa-eye curser_pointer" toggle="#password"></i>
+                                            <span class="error ng-hide" ng-show="loginForm.password.$dirty &amp;&amp; loginForm.password.$error.required">Password is required!</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 no_padding margin_tp_btm_30">
+                                        <button class="btn btn-md anim col-xs-12 custm_btn_blue anim waves-effect waves-button waves-float" type="submit" ng-disabled="loginForm.$invalid" ng-click="Authenticate(null,null,disBtnOnReq)" disabled="disabled">Login</button>
+                                    </div>
+                                    <!-- ngIf: loginErr -->
+                                    <a class="col-xs-12 center sm_title margin_tp_5" href="https://www.mycamu.co.in/#/reset" style="font-size:15px !important">Forgot Password<span>?</span></a>
+                                    <div class="col-xs-12 text-inside-line" style="margin-top: 30px !important;">
+                                        <span>or sign in using</span>
+                                    </div>
+                                    <!-- external signin -->
+                                    <div class="col-xs-12" style="padding-left: 0px !important;padding-right: 0px !important;">
+                                        <!-- <div class="col-xs-6" > -->
+                                            <button id="gSignInBtn" class="col-xs-12 Signin-external btn" ng-click="do_external_OAuth(&#39;google&#39;)">
+                                                <img src="./My Camu_files/google_logo.png" alt="google_logo">
+                                                <span>
+                                                Google
+                                                </span>
+                                            </button>
+                                            <a href="javascript:void(0);" id="gSignInAnchorTag" style="display: none;"></a>
+                                            <!-- ngIf: showKeycloakLogin -->
+                                             <!-- ngIf: !showKeycloakLogin --><button id="gSignInBtn" class="col-xs-12 Signin-external btn ng-scope" ng-click="do_external_OAuth(&#39;microsoft&#39;)" ng-if="!showKeycloakLogin">
+                                                <img src="./My Camu_files/microsoft_logo.png" alt="microsoft_logo">
+                                                <span>
+                                                Office365
+                                                </span>
+                                            </button><!-- end ngIf: !showKeycloakLogin -->
+                                        <!-- </div> -->
+                                    </div>
+                                    <!-- ngIf: exAutErr -->
+                                </form>
+                            </div>
+                            <div class="col-xs-12 no_padding footer-content_view">
+                                <div class="col-xs-12 no_padding">
+                                    <!-- Contact Us -->
+                                    <address class="col-xs-12 sm_title no_padding center pad_tp_5">
+                                        www.octoze.com | support@octoze.com<br>
+                                        2017 © Octoze Technologies. All Rights Reserved.
+                                    </address>
+                                    <!-- End Contact Us -->
+
+                                    <!-- Social Links -->
+                                    <div class="headline" style="display: none;"><h2>Stay Connected</h2></div>
+                                    <ul class="social-icons" style="display: none;">
+                                        <li><a href="javascript:void(0)" data-original-title="Feed" class="social_rss"></a></li>
+                                        <li><a href="javascript:void(0)" data-original-title="Facebook" class="social_facebook"></a></li>
+                                        <li><a href="javascript:void(0)" data-original-title="Twitter" class="social_twitter"></a></li>
+                                        <li><a href="javascript:void(0)" data-original-title="Goole Plus" class="social_googleplus"></a></li>
+                                        <li><a href="javascript:void(0)" data-original-title="Pinterest" class="social_pintrest"></a></li>
+                                        <li><a href="javascript:void(0)" data-original-title="Linkedin" class="social_linkedin"></a></li>
+                                        <li><a href="javascript:void(0)" data-original-title="Vimeo" class="social_vimeo"></a></li>
+                                    </ul>
+                                    <!-- End Social Links -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="signup_tab">
+                            <div class="col-sm-12 no_padding">
+                                <form class="reg-page ng-pristine ng-invalid ng-invalid-required" name="regForm" id="regForm">
+
+                                    <!-- Register as Labels -->
+                                    <div class="controls-row btn-group col-sm-12 no_padding" data-toggle="buttons">
+                                        <label class="btn rltv" style="padding-left:0;"><h6 class="color_drk_grey">REGISTER AS:</h6></label>
+                                        <label class="btn custm_btn_grey typeactive anim waves-effect waves-button waves-float" style="margin-right: 5px;" ng-click="registration.Type=&#39;parent&#39;;error=undefined">
+                                            <input type="radio" value="parent" ng-model="registration.Type" ng-change="error=undefined" class="ng-pristine ng-valid" name="013">
+                                            Parent
+                                        </label>
+                                        <label class="btn custm_btn_grey typeactive anim waves-effect waves-button waves-float" style="margin-right: 5px;" ng-click="registration.Type=&#39;student&#39;;error=undefined">
+                                            <input type="radio" value="student" ng-model="registration.Type" ng-change="error=undefined" class="ng-pristine ng-valid" name="014">
+                                            Student
+                                        </label>
+                                    </div>
+
+                                    <div class="col-xs-12 ht no_padding">
+                                        <div class="col-xs-12 abs no_padding">
+                                            <input class="form-input ng-pristine ng-invalid ng-invalid-required ng-valid-maxlength ng-valid-minlength" type="text" id="username" name="username" ng-model="registration.Name" required="required" ng-minlength="3" ng-maxlength="50" ng-required="true" style="unicode-bidi: plaintext!important">
+                                            <label class="form-label" for="fullname">Name</label>
+                                            <span class="error ng-hide" ng-show="regForm.username.$dirty &amp;&amp; regForm.username.$error.required">Name is required!</span>
+                                            <span class="error ng-hide" ng-show="regForm.username.$error.minlength">Name is too short!</span>
+                                            <span class="error ng-hide" ng-show="regForm.username.$error.maxlength">Name is too long!</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-12 ht no_padding">
+                                        <div class="col-xs-12 abs no_padding">
+                                            <input class="form-input ng-pristine ng-invalid ng-invalid-required ng-valid-email" type="email" id="email" name="mail" required="" ng-model="registration.Email" ng-blur="CheckMailid();" style="unicode-bidi: plaintext!important">
+                                            <label class="form-label" for="email">Email</label>
+                                            <span class="error ng-hide" ng-show="regForm.mail.$dirty &amp;&amp; regForm.mail.$invalid">Email is invalid!</span>
+                                            <!-- ngIf: mailErr -->
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-12 ht no_padding">
+                                        <div class="col-xs-12 abs no_padding">
+                                            <input class="form-input ng-pristine ng-invalid ng-invalid-required ng-valid-maxlength ng-valid-minlength" type="password" autocomplete="off" id="camupin" required="required" ng-model="registration.CamuPin" ng-change="error=undefined;camPnErr=undefined;" name="camupin" ng-minlength="3" ng-maxlength="20" ng-required="true" style="unicode-bidi: plaintext!important">
+                                            <label class="form-label" for="camupin">Camu PIN</label>
+                                            <span class="error ng-hide" ng-show="regForm.camupin.$dirty &amp;&amp; regForm.camupin.$error.required">Camu PIN is required!</span>
+                                            <span class="error ng-hide" ng-show="regForm.camupin.$error.minlength">Camu PIN is too short!</span>
+                                            <span class="error ng-hide" ng-show="regForm.camupin.$error.maxlength">Camu PIN is too long!</span>
+                                            <!-- ngIf: camPnErr -->
+                                        </div>
+                                        <!-- <div class="col-xs-12 no_padding" style="margin-bottom: 40px;" ng-if="camPnErr">
+                                            <span class="error" >{{camPnErr}}</span>
+                                        </div> -->
+                                    </div>
+
+                                    <div class="col-xs-12 ht no_padding" ng-class="{pwdTop : camPnErr}">
+                                        <div class="col-xs-12 abs no_padding">
+                                            <input class="form-input ng-pristine ng-invalid ng-invalid-required ng-valid-maxlength ng-valid-minlength" type="password" autocomplete="off" id="reg_password" required="required" ng-model="registration.pwd" ng-change="error=undefined;clearMsg();" name="reg_password" ng-minlength="3" ng-maxlength="20" ng-required="true" style="unicode-bidi: plaintext!important">
+                                            <label class="form-label" for="password">Password</label>
+                                            <span class="error ng-hide" ng-show="regForm.reg_password.$dirty &amp;&amp; regForm.reg_password.$error.required">Password is required!</span>
+                                            <span class="error ng-hide" ng-show="regForm.reg_password.$error.minlength">Password is too short!</span>
+                                            <span class="error ng-hide" ng-show="regForm.reg_password.$error.maxlength">Password is too long!</span>
+                                            <!--  -->
+                                            <!-- ngIf: pwdErr -->
+                                            <!-- ngIf: !pwdErr && !regForm.reg_password.$error.maxlength && !regForm.reg_password.$error.minlength --><span class="error ng-scope ng-binding" style="color: #333!important;" ng-class="{marTp18 : (regForm.reg_password.$dirty &amp;&amp; regForm.reg_password.$error.required)}" ng-if="!pwdErr &amp;&amp; !regForm.reg_password.$error.maxlength &amp;&amp; !regForm.reg_password.$error.minlength">Password must be at least 8 characters long, contain at least one number, one special character and have a mixture of uppercase or lowercase letters.</span><!-- end ngIf: !pwdErr && !regForm.reg_password.$error.maxlength && !regForm.reg_password.$error.minlength -->
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-12 ht no_padding chgHgt" ng-class="{chgHgt: (pwdErr || (pwdInfo &amp;&amp; !regForm.reg_password.$error.maxlength &amp;&amp; !regForm.reg_password.$error.minlength)), chgTop : (regForm.reg_password.$dirty &amp;&amp; regForm.reg_password.$error.required)}">
+                                        <div class="col-xs-12 abs no_padding">
+                                            <input class="form-input ng-pristine ng-invalid ng-invalid-required ng-valid-maxlength ng-valid-minlength" type="password" autocomplete="off" name="cnfpwd" id="cnfpwd" required="required" ng-model="registration.cnfpwd" ng-minlength="3" ng-maxlength="20" ng-required="true" cp-match="reg_password" style="unicode-bidi: plaintext!important">
+                                            <label class="form-label" for="cnfpwd">Confirm Password</label>
+                                            <span class="error ng-hide" ng-show="regForm.cnfpwd.$error.cpmatch">
+                                                The passwords don't match. Please try again.
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-12 no_padding resp_check">
+                                        <div class="col-xs-12 no_padding pad_tp_btm_20" ng-class="{trmBot : termErr}">
+                                            <input type="checkbox" id="dmy2" required="required" ng-model="registration.Checkbox" ng-required="true" class="ng-pristine ng-invalid ng-invalid-required">&nbsp; 
+                                            <label class="chck color_drk_grey" for="dmy2">I accept Terms and Conditions</label>
+                                        </div>
+                                        <!-- ngIf: termErr -->
+                                    </div>
+
+                                    <div class="col-xs-12 no_padding">
+                                        <button class="btn btn-md anim col-xs-12 custm_btn_blue waves-effect waves-button waves-float" type="submit" ng-disabled="regForm.$invalid || canDisable() || RegBtnDisable" ng-click="register()" disabled="disabled">REGISTER</button>
+                                    </div>
+                                    <!-- ngIf: regErr -->
+                                </form>
+                            </div>                     
+                        </div>
+                        <!-- <div class="tab-pane" id="email_tab">
+                            <form class="reg-page" name="signForm" id ="signForm">
+                                <div class="col-xs-12 ht no_padding">
+                                    <div class="col-xs-12 abs no_padding">
+                                        <input class="form-input" type="text" id="email" name="mail" required ng-model="Otpregister.instCode" ng-change="Otpregister.code=undefined"  style="unicode-bidi: plaintext!important"/>
+                                        <label class="form-label" for="email">Institute code</label> -->
+                                        <!-- <span class="error" ng-show="signForm.mail.$dirty && signForm.mail.$invalid">Email is invalid!</span> -->
+                                    <!-- </div>
+                                </div>
+                                <div class="col-xs-12 ht no_padding">
+                                    <div class="col-xs-12 abs no_padding">
+                                        <input class="form-input" type="email" id="email" name="mail" required ng-model="Otpregister.Email" ng-blur="CheckMailid();" ng-change="Otpregister.code=undefined" style="unicode-bidi: plaintext!important"/>
+                                        <label class="form-label" for="email">Email</label>
+                                        <span class="error" ng-show="signForm.mail.$dirty && signForm.mail.$invalid">Email is invalid!</span>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 pad_tp_20">
+                                    <button class="btn btn-md anim col-xs-12 custm_btn_blue" type="submit" ng-disabled="signForm.$invalid"  ng-click="registerApplicant()" >REGISTER</button><br>
+                                    <span class="font_14_rg " ng-show ="Otpregister && Otpregister.code&& Otpregister.code == 'success'" style="color:green;padding-top:20px !important;"> 
+                                       <i class="fa fa-thumbs-o-up" aria-hidden="true"></i> The application registration is successful. Please check your email to complete the verification process.
+                                    </span>
+                                    <span class="font_14_rg " ng-show ="Otpregister && Otpregister.code&& Otpregister.code == 'duplicateInst'" style="color:#F44336;padding-top:20px !important;"> 
+                                       <i class="fa fa-thumbs-o-up" aria-hidden="true"></i> More then one institution have same code
+                                    </span>
+                                    <span class="font_14_rg " ng-show ="Otpregister && Otpregister.code&& Otpregister.code == 'InstNotFnd'" style="color:#F44336;padding-top:20px !important;"> 
+                                       <i class="fa fa-thumbs-o-up" aria-hidden="true"></i> Institute code entered is not correct. Please check and try again.
+                                    </span>
+                                    <span class="font_14_rg " ng-show ="Otpregister && Otpregister.code&& Otpregister.code == 'duplicate'" style="color:#F44336;padding-top:20px !important;"> 
+                                       <i class="fa fa-thumbs-o-up" aria-hidden="true"></i> Email-id is already registred. Please enter a different email-id.
+                                    </span> 
+                                </div>
+                            </form>
+                        </div>  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- To show login domain modal-->
+
+    <div id="loginDomainModal" class="modal fade in">
+        <div class="loginDomainBg">
+          <div class="col-xs-12" style="margin-top: 2%;">
+             <img class="closeModal hoverImg clsImgSt" src="./My Camu_files/close.png" ng-click="closeDomainModal()">
+          </div>
+          <div class="col-xs-12" style="padding: 0px;">
+             <div class="col-xs-7" style="padding: 0px;">
+                <div id="domain_selection_id" onclick="window.location.href=&#39;https://www.mycamu.co.in&#39;">
+                   <img class="inImg hoverImg" src="./My Camu_files/india.png">
+                   <div class="fntStIn" id="default_domain_id">You are on 
+                   </div>
+                   <div class="inUrl hyperlink" style="font-family:Arial;margin-left: 63%;font-size:14px;color:rgb(169 169 169);margin-top: 2%;font-weight: bold;">mycamu.co.in
+                   </div>
+                </div>
+             </div>
+             <div class="col-xs-5" style="padding: 0px">
+                <div id="domain_fselection_id" onclick="window.location.href=&#39;https://www.mycamu.com&#39;">
+                   <img class="worImg hoverImg" src="./My Camu_files/other.png">
+                   <div class="fntStWr" id="foreign_domain_id">Visit </div>
+                   <div class="worUrl hyperlink" style="font-weight: bold;">mycamu.com</div>
+                </div>
+             </div>
+          </div>
+          <div class="col-xs-12">
+             <div class="proceedFntSt hoverImg" id="proceed_id" ng-click="closeDomainModal()">Proceed anyway
+             </div>
+          </div>
+        </div>
+    </div>
+    <!-- Signup registration success modal -->
+    <div class="col-xs-12" style="margin-top: 20px;">
+        <div class="col-xs-3">
+            <div class="modal fade" id="loginModal" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <h3>Thank you!</h3>
+                            <p>Your registration was successful. You will recieve an email for the same. Please click OK to login.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="primary-btn" type="submit" ng-click="goToLoginTab()" data-dismiss="modal">OK</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/container-->
+<!--=== End Content Part ===-->
+<script src="./My Camu_files/api_client.js.download" class="ng-scope" gapi_processed="true"></script>
+<script src="./My Camu_files/public_loginctrl.js.download" class="ng-scope"></script>
+<script type="text/javascript" class="ng-scope">
+    $(".toggle-password").click(function() { // Password show/hide function
+        $(this).toggleClass("fa-eye fa-eye-slash");
+        var input = $($(this).attr("toggle"));
+        if (input.attr("type") == "password") {
+            input.attr("type", "text");
+        } else {
+            input.attr("type", "password");
+        }
+    });
+</script>
+
+</div>
+</div></div>
+  <!-- uiView: footer --><div ui-view="footer" class="ng-scope"><!--=== Footer ===-->
+    <div class="footer ng-scope">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 md-margin-bottom-40" style="display: none;">
+                    <!-- About -->
+                    <div class="headline"><h2>About My Camu</h2></div>
+                    <p class="margin-bottom-25 md-margin-bottom-40">MyCamu is school-home collaboration  portal, powered by
+                        <i class="fa fa-leaf service-icon" style="color: green"></i> Camu. Your Campus.
+                        <br>MyCamu provides students and parents all the information they want in one place,
+                        accessible from mobile app or on a web browser.
+                        <br>To use "MyCamu", your school must be running the Camu to manage the campus.
+                        Please get in touch with your school for more information.</p>
+                    <!-- End About -->
+                </div><!--/col-md-4-->
+
+                <!--<div class="col-md-4 md-margin-bottom-40">-->
+                    <!--&lt;!&ndash; Recent Blogs &ndash;&gt;-->
+                    <!--<div class="posts">-->
+                        <!--<div class="headline"><h2>Recent Blog Entries</h2></div>-->
+                        <!--<dl class="dl-horizontal">-->
+                            <!--<dt><a href="#"><img src="assets/img/sliders/elastislide/6.jpg" alt="" /></a></dt>-->
+                            <!--<dd>-->
+                                <!--<p><a href="#">What Parents Want in School Communication</a></p>-->
+                            <!--</dd>-->
+                        <!--</dl>-->
+                        <!--<dl class="dl-horizontal">-->
+                        <!--<dt><a href="#"><img src="assets/img/sliders/elastislide/10.jpg" alt="" /></a></dt>-->
+                            <!--<dd>-->
+                                <!--<p><a href="#">Assessment, Choice, and the Learning Brain</a></p>-->
+                            <!--</dd>-->
+                        <!--</dl>-->
+                        <!--<dl class="dl-horizontal">-->
+                        <!--<dt><a href="#"><img src="assets/img/sliders/elastislide/11.jpg" alt="" /></a></dt>-->
+                            <!--<dd>-->
+                                <!--<p><a href="#">Designing Learning Experiences: Start with the Student and Co-Create</a></p>-->
+                            <!--</dd>-->
+                        <!--</dl>-->
+
+                        <!--<dl class="dl-horizontal">-->
+                        <!--<dt><a href="#"><img src="assets/img/sliders/elastislide/cbse.jpg" alt="" /></a></dt>-->
+                            <!--<dd>-->
+                                <!--<p><a href="http://mycbseguide.com/" target="_blank">Best Knowledge Hub for CBSE Students</a></p>-->
+                            <!--</dd>-->
+                        <!--</dl>-->
+                        <!--<dl class="dl-horizontal">-->
+                        <!--<dt><a href="#"><img src="assets/img/sliders/elastislide/ebola.jpg" alt="" /></a></dt>-->
+                            <!--<dd>-->
+                                <!--<p><a href="http://www.coolcatteacher.com/videos/how-ebola-works" target="_blank">Students want to understand how ebola works </a></p>-->
+                            <!--</dd>-->
+                        <!--</dl>-->
+
+                      <!---->
+                      <!--</div>-->
+                    <!--&lt;!&ndash; End Recent Blogs &ndash;&gt;                    -->
+                <!--</div>&lt;!&ndash;/col-md-4&ndash;&gt;-->
+                
+            </div>
+        </div> 
+    </div><!--/footer-->
+    <!--=== End Footer ===--></div>
+
+  <!--=== Copyright ===-->
+    <!-- <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">                     
+                    <p>
+                        2014 &copy; Octoze Technologies. All Rights Reserved.
+                        <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+                    </p>
+                </div>
+                <div class="col-md-6">  
+                   
+                </div>
+            </div>
+        </div> 
+      </div> --><!--/copyright--> 
+    </div>
+
+
+  
+  
+<script type="text/javascript" src="./My Camu_files/vendor.min.js.download"></script>
+<script src="./My Camu_files/aws-sdk-2.279.1.min.js.download"></script>
+<script src="./My Camu_files/app.min.js.download"></script>
+ 
+ <script src="./My Camu_files/combined.min.js.download"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="./My Camu_files/firebase-app.js.download"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="./My Camu_files/firebase-analytics.js.download"></script>
+
+
+
+<div id="topcontrol" title="Scroll Back to Top" style="position: fixed; bottom: 5px; right: 5px; opacity: 0; cursor: pointer;"><img src="./My Camu_files/up.png" style="width:51px; height:42px"></div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
